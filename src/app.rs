@@ -1,2 +1,5 @@
-struct App {}
-impl spud::App for App {}
+use spud::App;
+
+#[derive(App)]
+struct Example {
+}

@@ -2,3 +2,4 @@
 // and it will autowrite this file of similar
 
 mod root;
+mod other;

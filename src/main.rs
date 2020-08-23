@@ -3,6 +3,7 @@
 mod app;
 mod controller;
 mod model;
+
 use app::App;
 
 fn main() {

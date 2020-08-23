@@ -1,6 +1,9 @@
+use spud::Controller;
+
+#[derive(Controller)]
 struct Root {}
 
-impl spud::Controller for Root {
+impl Root {
     #[PathPart(/)]
     pub fn root(&self, c: impl Spud) {}
 

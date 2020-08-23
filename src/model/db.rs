@@ -1,3 +1,4 @@
-struct Db {}
+use spud::Model
 
-impl spud::Model for Db {}
+#[derive(Model)]
+struct Db {}
