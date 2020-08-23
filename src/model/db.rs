@@ -1,6 +1,3 @@
-struct Db {
-}
+struct Db {}
 
-impl spud::Model for Db {
-
-}
+impl spud::Model for Db {}

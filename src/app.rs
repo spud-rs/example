@@ -1,3 +1,2 @@
-struct App {
-}
-impl Spud for App {}
+struct App {}
+impl spud::App for App {}

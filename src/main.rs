@@ -1,8 +1,8 @@
 // repalce these with a macro?
 // spud::load_mods!();
+mod app;
 mod controller;
 mod model;
-mod app;
 use app::App;
 
 fn main() {
